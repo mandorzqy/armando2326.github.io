@@ -1,0 +1,59 @@
+#ar-logo-black {
+    height: 60px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg-navy {
+    background-color: #112D4E;
+}
+
+.bg-navy-gradient {
+    background: linear-gradient(to top,
+    #112D4E,
+    #001F45);
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif !important; 
+    background: linear-gradient(to right,
+    #F9F7F7,
+    #FFFFFF,
+    #FFFFFF,
+    #F9F7F7);
+}
+
+.box-navy {
+    background-color: #112D4E;
+    border-radius: 20px;
+    color: #F9F7F7;
+    padding-left: 30px !important;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: #ECB365;
+}
+
+.language {
+    margin-left: 100px;
+}
+
+main {
+    padding: 20px;
+    padding-left: 100px !important;
+}
+
+.nav-menu {
+    margin-left: 20px;
+}
