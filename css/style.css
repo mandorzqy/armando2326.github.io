@@ -32,17 +32,36 @@ body {
 .box-navy {
     background-color: #112D4E;
     border-radius: 20px;
-    color: #F9F7F7;
     padding-left: 30px !important;
     padding-top: 20px;
     padding-right: 30px;
     padding-bottom: 10px;
 }
 
+.color-navy {
+    color: #112D4E;
+}
+
+.color-turqoise {
+    color: #3FC1C9;
+}
+
+.color-yellow {
+    color: #ECB365;
+}
+
+.color-white {
+    color: #F9F7F7;
+}
+
+h1 {
+    font-size: 68px !important;
+    font-weight: 700 !important;
+}
+
 h2 {
     font-size: 20px !important;
     font-weight: 500 !important;
-    color: #ECB365;
 }
 
 .language {
@@ -52,6 +71,12 @@ h2 {
 main {
     padding: 20px;
     padding-left: 100px !important;
+}
+
+.myname {
+    font-size: 42px !important;
+    font-weight: 600 !important;
+    line-height: 55px;
 }
 
 .nav-menu {
