@@ -33,6 +33,10 @@ body {
             #F9F7F7);
 }
 
+.border-radius-5 {
+    border-radius: 5px;
+}
+
 .box-navy {
     background-color: #112D4E;
     border-radius: 20px;
@@ -69,16 +73,16 @@ h1 {
 
 h2 {
     font-size: 20px !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
+}
+
+h3 {
+    font-size: 17px !important;
+    font-weight: 600 !important; 
 }
 
 .language {
     margin-left: 100px;
-}
-
-main {
-    padding: 20px;
-    padding-left: 100px !important;
 }
 
 .mapouter {
@@ -105,4 +109,10 @@ main {
 
 .opacity-50 {
     opacity: 50%;
+}
+
+td {
+    padding-right: 30px;
+    text-align: center;
+    line-height: 20px;
 }
