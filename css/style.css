@@ -1,9 +1,13 @@
 #ar-logo-black {
-    height: 60px;
+    height: 55px;
 }
 
 a {
     text-decoration: none !important;
+}
+
+a:hover {
+    color: beige !important;
 }
 
 .bg-navy {
@@ -12,8 +16,8 @@ a {
 
 .bg-navy-gradient {
     background: linear-gradient(to top,
-    #112D4E,
-    #001F45);
+            #112D4E,
+            #001F45);
 }
 
 .bg-white {
@@ -21,12 +25,12 @@ a {
 }
 
 body {
-    font-family: 'Readex Pro', sans-serif !important; 
+    font-family: 'Readex Pro', sans-serif !important;
     background: linear-gradient(to right,
-    #F9F7F7,
-    #FFFFFF,
-    #FFFFFF,
-    #F9F7F7);
+            #F9F7F7,
+            #FFFFFF,
+            #FFFFFF,
+            #F9F7F7);
 }
 
 .box-navy {
@@ -36,6 +40,10 @@ body {
     padding-top: 20px;
     padding-right: 30px;
     padding-bottom: 10px;
+}
+
+.color-blue {
+    color: #3F72AF;
 }
 
 .color-navy {
@@ -73,12 +81,28 @@ main {
     padding-left: 100px !important;
 }
 
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 440px;
+    border-radius: 25px;;
+}
+
 .myname {
     font-size: 42px !important;
     font-weight: 600 !important;
     line-height: 55px;
 }
 
-.nav-menu {
-    margin-left: 20px;
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.opacity-50 {
+    opacity: 50%;
 }
