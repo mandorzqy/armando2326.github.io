@@ -77,6 +77,10 @@ body {
     color: #F9F7F7;
 }
 
+.gambar-carousel {
+    border-radius: 10px !important;
+}
+
 .demo-wrap {
     position: relative;
 }
